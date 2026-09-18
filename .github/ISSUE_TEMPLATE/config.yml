@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ask a question or get build help
+    url: https://github.com/Open-BeatBox/Open-BeatBox.github.io/discussions
+    about: Build help, parts sourcing, task design and "is this normal?" belong in Discussions, where the answer stays searchable for the next lab.
+  - name: Read the technical manual
+    url: https://open-beatbox.github.io/docs/manual/
+    about: Assembly tutorials, hardware reference and protocols.
+  - name: Report a security or safety concern privately
+    url: https://github.com/Open-BeatBox/.github/blob/main/SECURITY.md
+    about: Firmware flaws that could damage hardware or harm an animal should be reported by email, not in a public issue.

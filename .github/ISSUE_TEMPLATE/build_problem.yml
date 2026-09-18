@@ -1,0 +1,54 @@
+name: Build or assembly problem
+description: Something did not work while physically building a module
+labels: ["assembly", "needs triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For problems hit at the bench. If you are unsure whether something is a defect or just unclear, open it anyway — an ambiguous instruction is a bug.
+  - type: dropdown
+    id: module
+    attributes:
+      label: Module
+      options:
+        - Frame and enclosure
+        - Feeder
+        - Photobeam gate
+        - Screen
+        - Light ring
+        - Water bottle mount
+        - Final integration
+        - Not sure
+    validations:
+      required: true
+  - type: dropdown
+    id: revision
+    attributes:
+      label: Hardware revision
+      options: ["V3", "V2", "Not sure"]
+    validations:
+      required: true
+  - type: input
+    id: step
+    attributes:
+      label: Which step
+      description: Guide page and step number, for example "Feeder module, step 4".
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you expected, and what actually happened.
+    validations:
+      required: true
+  - type: textarea
+    id: photos
+    attributes:
+      label: Photographs
+      description: Drag images in. For mechanical and wiring problems a photo usually settles it faster than any description.
+  - type: textarea
+    id: workaround
+    attributes:
+      label: Did you find a way around it?
+      description: Even a partial workaround helps the next person.

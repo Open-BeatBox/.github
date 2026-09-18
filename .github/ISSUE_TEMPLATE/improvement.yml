@@ -1,0 +1,31 @@
+name: Improvement or new capability
+description: Propose a change to the hardware, software or documentation
+labels: ["enhancement", "needs triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please describe the experimental need first. Knowing what you are trying to measure usually changes what the right solution is.
+  - type: textarea
+    id: need
+    attributes:
+      label: What are you trying to do
+      description: The experiment or workflow this would support.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What you propose
+    validations:
+      required: true
+  - type: dropdown
+    id: layer
+    attributes:
+      label: Which layer does this touch
+      multiple: true
+      options: ["Hardware", "Firmware", "Software", "Documentation", "Website", "Not sure"]
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Anything you already tried

@@ -1,0 +1,22 @@
+name: Documentation problem
+description: Something in the manual or assembly guides is wrong, missing or unclear
+labels: ["documentation", "needs triage"]
+body:
+  - type: input
+    id: where
+    attributes:
+      label: Where
+      description: Page URL or file path.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong
+      description: Quote the text if you can.
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: What should it say instead

@@ -1,0 +1,45 @@
+name: Validation or build report
+description: You built a module, or tested one, and want to report how it went
+labels: ["validation", "community build"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        These reports are how the project learns whether the documentation actually works outside the originating lab. Successful builds are as useful to hear about as failed ones.
+  - type: input
+    id: institution
+    attributes:
+      label: Lab or institution
+      description: Optional, but it helps us see where the platform is being used.
+  - type: dropdown
+    id: scope
+    attributes:
+      label: What did you build or test
+      multiple: true
+      options: ["Full system", "Frame and enclosure", "Feeder", "Photobeam gate", "Screen", "Light ring", "Water bottle mount"]
+    validations:
+      required: true
+  - type: dropdown
+    id: revision
+    attributes:
+      label: Hardware revision
+      options: ["V3", "V2", "Modified - described below"]
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: How did it go
+      description: What worked, what did not, and anything the documentation did not prepare you for.
+    validations:
+      required: true
+  - type: textarea
+    id: substitutions
+    attributes:
+      label: Part substitutions
+      description: Parts you sourced differently, and whether they worked. Suppliers vary by country, so this is genuinely useful.
+  - type: textarea
+    id: data
+    attributes:
+      label: Validation data
+      description: Measurements or behavioural data showing the module performs as documented.
