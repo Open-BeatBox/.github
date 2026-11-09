@@ -10,10 +10,10 @@ The project is split by layer, so contributions go to the repository that owns t
 
 | What you want to change | Repository |
 | --- | --- |
-| Assembly steps, part references, the master BOM | [assembly-tutorials](https://github.com/Open-BeatBox/assembly-tutorials) |
+| Assembly steps, part references, the master BOM | [Open-BeatBox_Documentation](https://github.com/Open-BeatBox/Open-BeatBox_Documentation) (`source/build/assembly-tutorials`) |
 | Manual pages, protocols, technical notes | [Open-BeatBox_Documentation](https://github.com/Open-BeatBox/Open-BeatBox_Documentation) |
 | CAD, enclosure, PCB, mechanical design | [Open-BeatBox_Hardware](https://github.com/Open-BeatBox/Open-BeatBox_Hardware) |
-| Firmware and embedded control | [Open-BeatBox_firmware](https://github.com/Open-BeatBox/Open-BeatBox_firmware) |
+| Firmware and embedded control | [Open-BeatBox_Software](https://github.com/Open-BeatBox/Open-BeatBox_Software) (`micropython/`; the Open-BeatBox_Firmware repository is only a pointer) |
 | GUI, acquisition, analysis tools | [Open-BeatBox_Software](https://github.com/Open-BeatBox/Open-BeatBox_Software) |
 | The website and its build pipeline | [Open-BeatBox.github.io](https://github.com/Open-BeatBox/Open-BeatBox.github.io) |
 
@@ -66,7 +66,7 @@ Some repositories use Git submodules. Clone with `--recurse-submodules`, and not
 
 ### Documentation conventions
 
-Assembly documentation follows the naming and structure rules in [conventions.md](https://github.com/Open-BeatBox/assembly-tutorials/blob/main/conventions.md). Match the surrounding style rather than introducing a new one.
+Assembly documentation follows the naming and structure rules in [conventions.md](https://github.com/Open-BeatBox/Open-BeatBox_Documentation/blob/main/source/build/assembly-tutorials/conventions.md). Match the surrounding style rather than introducing a new one.
 
 ## Licensing and provenance
 

@@ -6,7 +6,7 @@
 | --- | --- |
 | How do I build one? | [Assembly tutorials](https://open-beatbox.github.io/docs/manual/build/assembly-tutorials/tutorials_index.html) |
 | How does a module work? | [Technical manual](https://open-beatbox.github.io/docs/manual/) |
-| What parts do I order? | [Master BOM](https://github.com/Open-BeatBox/assembly-tutorials#bill-of-materials) |
+| What parts do I order? | [Master BOM](https://open-beatbox.github.io/docs/manual/build/bom.html) |
 | Can I watch someone build it? | [Video tutorials](https://www.youtube.com/@open-beatbox/) |
 
 ## Ask a question
