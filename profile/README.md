@@ -70,9 +70,9 @@ Typical uses: autonomous operant conditioning, reward-delivery and sensor-trigge
 
 If you use Open-BEATBox in published work, please cite **both** the reference preprint and the Zenodo record of the release you used:
 
-> Euvrard M, Benzina N, Domingues D, Mondragón-González SL, Huzard D, Penderia G, Travert-Jouanneau Y, Lavielle O, Lousada E, Schreiweis C, Lorenz A, Pavlov P, Ajili Z, Lebegue L, Tissier P, Burguière E. "Open-BEATBox: an open-source autonomous operant chamber for high-throughput data acquisition of complex behaviour." bioRxiv, 2026 (DOI to be added when the preprint is posted).
+> Euvrard M, Benzina N, Domingues D, Mondragón-González SL, Huzard D, Penderia G, Travert-Jouanneau Y, Lavielle O, Lousada E, Schreiweis C, Lorenz A, Pavlov P, Ajili Z, Lebegue L, Tissier P, Burguière E. "Open-BEATBox: an open-source autonomous operant chamber for high-throughput data acquisition of complex behaviour." bioRxiv, 2026. doi: [10.64898/2026.11.07.765109](https://doi.org/10.64898/2026.11.07.765109)
 
-Each release of the Hardware, Software and Documentation repositories is archived on Zenodo with its own DOI (release `biorxiv-v1` for the version in the preprint; DOI: to be added once release `biorxiv-v1` is published on Zenodo). The firmware is part of the Software record. Every repository has a `CITATION.cff` file for GitHub's *Cite this repository* button.
+Each release of the Hardware, Software and Documentation repositories is archived on Zenodo with its own DOI (release `biorxiv-v1` for the version in the preprint: Hardware [10.5281/zenodo.24080048](https://doi.org/10.5281/zenodo.24080048), Software [10.5281/zenodo.24080479](https://doi.org/10.5281/zenodo.24080479), Documentation [10.5281/zenodo.24080481](https://doi.org/10.5281/zenodo.24080481)). The firmware is part of the Software record. Every repository has a `CITATION.cff` file for GitHub's *Cite this repository* button.
 
 ## Licensing
 
